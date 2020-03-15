@@ -4,7 +4,7 @@
 
 .App {
   text-align: center;
-  height: 100vh;
+  height: 90vh;
   /* margin: 2rem; */
   border-spacing: 10px 1rem;
   display: grid;
@@ -16,6 +16,8 @@
   padding: 10px;
   /* transition: width 2s; */
   display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
