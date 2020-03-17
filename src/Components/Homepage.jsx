@@ -23,9 +23,9 @@ class Homepage extends React.Component {
       <div className="home-page">
         {/* <h1 className='name'>Johanne Enama</h1> */}
         {/* {console.log("hey", greetings)} */}
-        <div className='hello-container'>
+        {/* <div className='hello-container'> */}
           <video autoPlay loop  className ='background-video' muted>
-            <source src='https://youtu.be/LDrBMpMdW0s' type='video'
+            <source src='https://youtu.be/LDrBMpMdW0s' type='video'/>
           </video>
           {/* <div className="greetings">
             {greetings.map(greeting => {
@@ -34,7 +34,7 @@ class Homepage extends React.Component {
           </div> */}
           {/* <img className='image' src= {img} alt='me'/> */}
           
-        </div>
+        {/* </div> */}
       </div>
     );
   }
