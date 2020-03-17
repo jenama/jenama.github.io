@@ -4,7 +4,7 @@
 
 .App {
   text-align: center;
-  height: 90vh;
+  height: 100vh;
   /* margin: 2rem; */
   border-spacing: 10px 1rem;
   display: grid;
@@ -12,7 +12,8 @@
 }
 
 .home-page {
-  background-image: url("https://thumbs.dreamstime.com/b/hello-speech-bubbles-different-languages-vector-89703715.jpg");
+  /* background-image: url("https://thumbs.dreamstime.com/b/hello-speech-bubbles-different-languages-vector-89703715.jpg"); */
+  
   padding: 10px;
   /* transition: width 2s; */
   display: grid;
@@ -33,9 +34,9 @@ nav {
   /* flex-direction: ; */
 }
 
-.nav-bar {
+/* .nav-bar {
   background: #fcfbfa;
-}
+} */
 
 .skills img {
   width: 100px;
@@ -75,6 +76,17 @@ nav {
   border-radius: 100px;
   display: flex;
   flex-direction: column;
+}
+
+.background-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
 }
 
 /* .about {

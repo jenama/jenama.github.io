@@ -24,6 +24,9 @@ class Homepage extends React.Component {
         {/* <h1 className='name'>Johanne Enama</h1> */}
         {/* {console.log("hey", greetings)} */}
         <div className='hello-container'>
+          <video autoPlay loop  className ='background-video' muted>
+            <source src='https://youtu.be/LDrBMpMdW0s' type='video'
+          </video>
           {/* <div className="greetings">
             {greetings.map(greeting => {
               return <div className="welcome-bubble">{greeting.language}</div>;
