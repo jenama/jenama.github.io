@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const About = (props) => {
     return (
         <div className='about'>
             <h1>About me</h1>
@@ -10,6 +10,10 @@ const About = () => {
             teams are FC Barcelona and Manchester City FC. One of the things that drew me to coding
             was the language aspect. I enjoy learning languages spoken or otherwise.
             </div>
+            <div>
+                {/* <a href=/> */}
+            </div>
+            
         </div>
     )
 }

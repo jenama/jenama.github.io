@@ -50,18 +50,15 @@ class Projects extends React.Component {
                     
                     <h3>{project.title}</h3>
                     <div className='project-container'>
-                        <img src={project.imgUrl} width='300px' height='200px' alt='project'/>
+                        <img className='project-pic' src={project.imgUrl} width='300px' height='200px' alt='project'/>
                         <p>{project.description}</p>
-                        <div>
-                         <a href={project.live}>live</a> {" "}
-                        </div>
-                        <div>
-                            <a href={project.code}>code</a>
-                        </div>
+            
                     </div>
-                    {/* <div className='links'> */}
-                       
-                    {/* </div> */}
+                    
+                    <div  className='links'>
+                        <a href={project.live}>live</a> {" "}
+                        <a href={project.code}>code</a>
+                    </div>
                     
                 </div>
             )

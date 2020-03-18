@@ -6,35 +6,36 @@ class Homepage extends React.Component {
     super();
     this.state = {
       img:"https://scontent-bos3-1.xx.fbcdn.net/v/t1.0-0/p206x206/555769_10151266620092927_706690383_n.jpg?_nc_cat=103&_nc_sid=dd7718&_nc_ohc=1pejw86iMjcAX-MCFOs&_nc_ht=scontent-bos3-1.xx&_nc_tp=6&oh=221d4626126cfb17d3caa810051066cd&oe=5E969A2D",
-        //   greetings: [
-        //     { language: "Hello Welcome" },
-     //     { language: "Salut Bienvenue" },
-        //     { language: "Hola Bienvenido" },
-        //     { language: "Merhaba Hoşgeldiniz" },
-        //     { language: "Nǐ hǎo huānyíng guānglín" },
-        //     { language: "Namaste aapaka svaagat hai" }
-        //   ]
+          greetings: [
+            { language: "Welcome" },
+         { language: "Bienvenue" },
+            { language: "Bienvenido" },
+            { language: "Hoşgeldiniz" },
+            { language: "Huānyíng Guānglín" },
+            { language: "Aapaka Svaagat Hai" },
+            {language: "Benvenguts"},
+            {language: "Bem-Vindos"},
+            {language: "Benvenuti"}
+
+          ]
     }
   }
 
   render() {
-    // const { greetings } = this.state;
+    const { greetings } = this.state;
     return (
       <div className="home-page">
-        {/* <h1 className='name'>Johanne Enama</h1> */}
-        {/* {console.log("hey", greetings)} */}
-        {/* <div className='hello-container'> */}
-          <video autoPlay loop  className ='background-video' muted>
-            <source src='https://youtu.be/LDrBMpMdW0s' type='video'/>
-          </video>
-          {/* <div className="greetings">
+       
+        {console.log("hey", greetings)}
+        <div className='hello-container'>
+          <h1 className="greetings">
             {greetings.map(greeting => {
               return <div className="welcome-bubble">{greeting.language}</div>;
             })}
-          </div> */}
-          {/* <img className='image' src= {img} alt='me'/> */}
+          </h1> 
+           {/* <img className='image' src= {img} alt='me'/> */}
           
-        {/* </div> */}
+        </div>
       </div>
     );
   }
