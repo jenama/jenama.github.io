@@ -26,7 +26,7 @@ class Homepage extends React.Component {
     return (
       <div className="home-page">
        
-        {console.log("hey", greetings)}
+        {/* {console.log("hey", greetings)} */}
         <div className='hello-container'>
           <h1 className="greetings">
             {greetings.map(greeting => {

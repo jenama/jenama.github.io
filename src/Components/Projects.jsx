@@ -40,7 +40,7 @@ class Projects extends React.Component {
     }
   render() {
       const { projects} = this.state
-      console.log('projects', projects)
+    //   console.log('projects', projects)
     return (
     <div className="projects">
         <h2>Projects</h2>

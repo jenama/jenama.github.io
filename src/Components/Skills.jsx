@@ -23,12 +23,7 @@ const Skills = () => {
                  <div className='git'> GIT
                     <img src='https://i.ya-webdesign.com/images/github-logo-png-16.png' alt='git'/>
                 </div>
-                 {/* <div>
-                    <img src=''/>
-                </div>
-                 <div>
-                    <img src=''/>
-                </div> */}
+                 
              </div>       
            
         </div>
