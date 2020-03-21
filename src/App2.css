@@ -13,8 +13,8 @@ body {
   border-spacing: 10px 1rem;
 }
 
-.home-page {
-}
+/* .home-page {
+} */
 
 a {
   text-decoration: none;
@@ -28,12 +28,21 @@ nav {
   align-items: center;
 }
 
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 .skills img {
   width: 100px;
 }
 
-.skills h1 {
-}
+/* .skills h1 {
+} */
 
 .name {
   color: #394055;
