@@ -17,12 +17,15 @@ class Homepage extends React.Component {
             {language: "Bem-Vindos"},
             {language: "Benvenuti"}
 
-          ]
+          ],
+        github: 'https://github.com/jenama',
+        linkedIn: 'https://www.linkedin.com/in/johanne-enama-6b318a189/',
+        // email: 'johanneenama@pursuit.org'
     }
   }
 
   render() {
-    const { greetings } = this.state;
+    const { greetings, github, linkedIn } = this.state;
     return (
       <div className="home-page">
        
@@ -35,6 +38,10 @@ class Homepage extends React.Component {
           </h1> 
            {/* <img className='image' src= {img} alt='me'/> */}
           
+        </div>
+        <div>
+            <h3>Contacts</h3>
+            {/* {gi} */}
         </div>
       </div>
     );
