@@ -1,16 +1,25 @@
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 500px;
+  opacity: 0.8;
 }
+
+/* body::after {
+  
+  z-index: -1; 
+  width: inherit;
+  background-color: royalblue;
+} */
 
 .App {
   text-align: center;
-
-  border-spacing: 10px 1rem;
+border-spacing: 10px 1rem;
+ font-family: cursive;
 }
 
 /* .home-page {
@@ -26,10 +35,11 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
 }
 
 .skills {
-  display: flex;
+  display: grid;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -41,23 +51,21 @@ nav {
   width: 100px;
 }
 
-/* .skills h1 {
-} */
+.skills h1 {
+  COLOR: blanchedalmond;
+}
 
 .name {
   color: #394055;
 }
 
 .list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .list div {
   box-sizing: border-box;
-  width: 200px;
+  /* width: 200px; */
   margin: 10px;
   padding: 20px;
   color: white;
@@ -113,8 +121,8 @@ nav {
   margin-top: 0px;
 }
 
-.project-pic:hover + p {
-  display: inline-block;
+.project-name:hover p {
+  display: block;
 }
 
 .project-name h3 {
@@ -145,11 +153,12 @@ nav {
   font-size: 20px;
 }
 
-@media screen and (min-width:620px) {
-  /* body{
+@media screen and (min-width:772px) {
+  body{
     width: 100%;
-  } */
-  .project-name {
-    width: 50%
   }
-}
+  .project-name {
+    width: 50%;
+    display:inline-block
+  }
+} 

@@ -14,8 +14,8 @@ class Navbar extends React.Component {
         return(
             <div className='nav-bar'>
                 <nav>
-                    <h1 className='name'>Johanne Enama</h1>
-                    <Link className='link1' to='/'>HomePage</Link> {" "}
+                    {/* <h1 className='name'>Johanne Enama</h1> */}
+                    <Link className='link1' to='/'><h1>Johanne Enama</h1></Link> {" "}
                     <Link className='link2' to='/about'>About</Link> {" "}
                     <Link className='link3' to='/skills'>Skills</Link> {" "}
                     <Link className='link4' to='/projects'>Projects</Link>

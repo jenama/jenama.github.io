@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 // import Axios from "axios";
 
 class Homepage extends React.Component {
@@ -40,8 +41,7 @@ class Homepage extends React.Component {
           
         </div>
         <div>
-            <h3>Contacts</h3>
-            {/* {gi} */}
+          <Link to='/about'><h2>To Johanne's Web page</h2></Link>  
         </div>
       </div>
     );
