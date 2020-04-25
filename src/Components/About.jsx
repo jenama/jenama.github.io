@@ -11,7 +11,7 @@ const About = props => {
         things that drew me to coding was the language aspect. I enjoy learning
         languages spoken or otherwise.
       </div>
-      <div>
+      <div className='contacts'>
         <h2>Contacts</h2>
         <a href="https://github.com/jenama">
           <svg viewBox="0 0 128 128" width='50px'>
@@ -25,6 +25,7 @@ const About = props => {
           </svg>
         </a>
         <a href='https://www.linkedin.com/in/johanne-enama-6b318a189/'>
+                linkedin
             <img src="https://img.icons8.com/metro/26/000000/linkedin.png"/>
         </a>
       </div>

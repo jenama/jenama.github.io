@@ -40,7 +40,7 @@ class Homepage extends React.Component {
            {/* <img className='image' src= {img} alt='me'/> */}
           
         </div>
-        <div>
+        <div className='johanne'>
           <Link to='/about'><h2>To Johanne's Web page</h2></Link>  
         </div>
       </div>
