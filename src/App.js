@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch, Link} from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Homepage2 from "./Components/HP2";
+import Homepage from "./Components/Homepage";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
@@ -12,20 +12,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Navbar/>
+        {/* <Navbar/> */}
         {/* <Homepage2/>  */}
-        <About/>
+        {/* <About/>
         <Skills/>
-        <Projects/>
-        <div className='nav-bar'>
-            
-      
-        </div>
+        <Projects/> */}
+      {/* </div>
+      <div className='nav-bar'> */}
+          <Navbar/>
           <Switch>
-            {/* <Route exact path="/" component={Homepage2}/> */}
-          {/* <Route path="/about" component={About}/>
-          <Route path="/skills" component={Skills}/>
-          <Route path="/projects" component={Projects}/>  */}
+            <Route exact path="/" component={Homepage}/>
+            <Route path="/about" component={About}/>
+            <Route path="/skills" component={Skills}/>
+            <Route path="/projects" component={Projects}/> 
         </Switch>  
       </div>
     );

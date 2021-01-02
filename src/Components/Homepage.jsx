@@ -1,5 +1,5 @@
 import React from "react";
-import { StackCard, TinderLikeCard } from 'react-stack-cards'
+// import { StackCard, TinderLikeCard } from 'react-stack-cards'
  
 class Homepage extends React.Component {
   constructor(props) {
@@ -30,47 +30,25 @@ class Homepage extends React.Component {
      this.Tinder = null
   }
 
-  componentDidMount () {
-    setTimeout(this.onTinderSwipe, 10000)
-  }
-
-  componentDidUpdate () {
-    console.log(this.Tinder)
-  }
-
-   onTinderSwipe = async() => {
-      try {
-        await this.Tinder.swipe()
-      } catch (error) {
-        console.log('error', error)
-      }
-  }
-
   render() {
-    const { greetings, button} = this.state;
-    console.log('tinder', this.Tinder)
+    const { greetings, github, linkedIn } = this.state;
     return (
       <div className="home-page">
-        <div className='greeting-deck'>
-          <TinderLikeCard
-            images={greetings}
-            width="350"
-            height="250"
-            direction={this.state.directionTinder}
-            duration={400}
-            ref={(node) => {
-              console.log('node', node)
-              this.Tinder = node
-              }}
-            className="tinder"
-          >
+
+        {/* {console.log("hey", greetings)} */}
+        <div className='hello-container'>
+          <h1 className="greetings">
             {greetings.map(greeting => {
               return <div className="welcome-bubble">{greeting.language}</div>;
             })}
-          </TinderLikeCard>
-          <button onClick = {this.onTinderSwipe}> click </button>
+          </h1> 
+           {/* <img className='image' src= {img} alt='me'/> */}
+
         </div>
-       
+        <div>
+            
+           
+        </div>
       </div>
     );
   }

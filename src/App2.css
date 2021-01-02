@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   background-image: url("https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif"); 
+  color:whitesmoke;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,6 +50,7 @@ nav {
 
 .skills img {
   width: 100px;
+  height: 100px
 }
 
 .skills h1 {
@@ -65,7 +67,7 @@ nav {
 }
 .list div {
   box-sizing: border-box;
-  /* width: 200px; */
+  width: 200px;
   margin: 10px;
   padding: 20px;
   color: white;

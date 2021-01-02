@@ -14,12 +14,11 @@ function Navbar(props) {
         <div className='nav-bar'>
             
             <nav>
-                <h3>JE</h3>
-                {/* <a className='link1' href='/'>JE</a> {" "} */}
-                <a className='link2' href='/#about'>About</a> {" "}
-                <a className='link3' href='/#skills'>Skills</a> {" "}
-                <a className='link4' href='/#projects'>Projects</a> {" "}
-                <a className='link5' href='/#contact'>Contact Me</a>
+                <h3><a className='link1' href='/'>JE</a></h3>
+                <a className='link2' href='/about'>About</a> {" "}
+                <a className='link3' href='/skills'>Skills</a> {" "}
+                <a className='link4' href='/projects'>Projects</a> {" "}
+                <a className='link5' href='/contact'>Contact Me</a>
             </nav>  
         </div>
     ) 
