@@ -1,31 +1,29 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {useState} from 'react';
+// import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/core/styles';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 
-class Navbar extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            img:"https://scontent-bos3-1.xx.fbcdn.net/v/t1.0-0/p206x206/555769_10151266620092927_706690383_n.jpg?_nc_cat=103&_nc_sid=dd7718&_nc_ohc=1pejw86iMjcAX-MCFOs&_nc_ht=scontent-bos3-1.xx&_nc_tp=6&oh=221d4626126cfb17d3caa810051066cd&oe=5E969A2D",
-        }
-    }
 
-    render() {
-        // const { img} = this.state
-        return(
-            <div className='nav-bar'>
-                <nav>
-                    {/* <h1 className='name'>Johanne Enama</h1> */}
-                    <Link className='link1' to='/'><h1>Johanne Enama</h1></Link> {" "}
-                    <Link className='link2' to='/about'>About</Link> {" "}
-                    <Link className='link3' to='/skills'>Skills</Link> {" "}
-                    <Link className='link4' to='/projects'>Projects</Link>
-                </nav>
-
-                 {/* <img className='image' src= {img} alt='me'/> */}
-                 {/* <h1 className='name'>Johanne Enama</h1> */}
-            </div>
-        )
-    }
+function Navbar(props) {
+    const { children, value, index, ...other } = props;
+    return(
+        <div className='nav-bar'>
+            
+            <nav>
+                <h3>JE</h3>
+                {/* <a className='link1' href='/'>JE</a> {" "} */}
+                <a className='link2' href='/#about'>About</a> {" "}
+                <a className='link3' href='/#skills'>Skills</a> {" "}
+                <a className='link4' href='/#projects'>Projects</a> {" "}
+                <a className='link5' href='/#contact'>Contact Me</a>
+            </nav>  
+        </div>
+    ) 
+    
 }
 
-export default Navbar
+export default Navbar;

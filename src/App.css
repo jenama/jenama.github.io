@@ -1,40 +1,124 @@
+body {
+  height: 100vh;
+  width: 100vw; 
+
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  
+ 
+
 }
 
 nav {
-  border: 3px solid blanchedalmond;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  background: #d6ae58
-  
+  overflow: hidden;
+  /* position: fixed; */
+  top: 0px;
+  width: 100%;
+
 }
+
+nav h3{
+float: left;
+}
+
+nav a {
+  float:right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 
 a {
-  padding: 5px;
-  text-decoration-line: none;
+ 
 }
-
+/* 
 .home-page {
-  height: 100vh;
-  /* background:#91bfa1; */
-  /* color:#8a7c88; */
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.home-page:hover{
-  /* background:#bd5d5c; */
-  /* color:#f5f6f5; */
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
-.greetings {
-
-}
-
-/* .image:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  background-color:#fbf7f7;
+  justify-content: center;
 } */
+
+.intro {
+   display: flex;
+   flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#skills h1{
+  text-align: center;
+  /* display: grid;
+  border-radius: 50%;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; 
+  margin: 10%; */
+}
+ 
+.list {
+display: grid;
+ justify-content: center;
+  align-items: center;
+grid-template-columns: 100px  100px;
+grid-gap:0% 10%
+}
+
+.list div {
+
+
+}
+
+.about-container {
+  /* padding: 20px;
+  margin: 5px */
+  height: 100%;
+  width: 50%;
+  /* position: fixed; */
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.project-container p {
+  /* background-color: #29415c; */
+  padding: 10px;
+  display: none;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.project-container img {
+  border: 5px solid #394055;
+  padding: 1px;
+  border-radius: 20px;
+  /* width: 00px;
+  height: 150px; */
+  margin-top: 0px;
+}
+
+
+/* .project-name:hover p {
+  display: inline;
+} */
+
+
+
+
+
+
+
+
+
+
