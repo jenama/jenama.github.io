@@ -5,22 +5,24 @@ import { Link } from 'react-router-dom'
 const About = props => {
   return (
    
-    <div className="about-container" id="about">
+    <div className="about-container section" id="about">
       <h1>About me</h1>
-      <div className = 'right'>
-          <h3>Welcome! I'm Johanne Enama</h3>
-              <p>
-                  I am a Full Stack Web developer, multilingual, Football(soccer), and music lover.
-                Becoming a developer was not something I considered until 2019. My journey started with 
-                Pursuit where I learned technical skills. Learning to program was unlike anything I had ever done or attempted to do.
-                It was a very tedious and difficult but oddly enough I did not hate it.
-                I am glad I stuck with it, because I was able to learn and acquire skills 
-                that I can use.
-              </p>
+      <div className='content'>
+          {/* <h3>Welcome! I'm Johanne Enama</h3> */}
+          <img className='left' src='/images/JohanneEnamacopy.jpeg'/>
+          <p className = 'right'>
+            I am a Full Stack Web developer, multilingual, Football(soccer), and music lover based in NYC.
+            I enjoy learning human languages and  computer languages. I also love solving problems and a  
+            competitive trivia player and my strongest suite is Geography. Before becoming an Engineer I 
+            worked for a non-profit. My journey as a developer started at Pursuit a where 
+            I learned technical skills. Learning to program was unlike anything I had ever done or attempted to do.
+            
+          </p>
+              
       </div>
-      <div>
-        <img src='/image/johanneEnamacopy.jpeg'/>
-      </div>
+     
+        
+     
 
     </div>
   );

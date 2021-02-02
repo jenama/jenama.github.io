@@ -1,7 +1,6 @@
 import React from "react";
 // import Fontawesome from '@fortawesome/react-fontawesome'
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
+import { XMasonry, XBlock } from "react-xmasonry";
 
 class Projects extends React.Component {
   constructor() {
@@ -18,10 +17,9 @@ class Projects extends React.Component {
         },
         {
           title: "Hand-Me-Down",
-          imgUrl: "/images/HandMeDown.gif",
-          description: `A web-based application designed to reduce overconsumption in the fashion 
-                 industry and support a framework of sustainability by enabling users to provide in-depth detail 
-                 describing pre-owned items to potential purchasers.`,
+          imgUrl: "/images/HMD.gif",
+          description: `An application to reduce overconsumption in the fashion industry for
+                      users to describe pre-owned items to potential purchasers.`,
           live: "http://handmedown.herokuapp.com",
           code: "https://github.com/jenama/HandMeDown",
         },
@@ -36,7 +34,7 @@ class Projects extends React.Component {
 
         {
           title: "TVBinge",
-          imgUrl: "/images/tvBinge.gif",
+          imgUrl: "/images/TVB.gif",
           description: `TV BingeList is be a full-stack application where users can post, 
                                 comment on, and favorite TV shows that they are binging on.`,
           live: "https://tvbinge.herokuapp.com",
@@ -50,39 +48,38 @@ class Projects extends React.Component {
 
     //   console.log('projects', projects)
     return (
-      <div className="projects-container" id="projects">
-        <h2>Projects</h2>
-        <Slider>
-          {/* {slides.map((slide, index) => <div key={index}>
-                <h2>{slide.title}</h2>
-                <div>{slide.description}</div>
-                </div>)} */}
+      
+      <div className="projects-container section" id="projects">
+      
+        <h1>Projects</h1>
+        <div className='projects-cards'>
           {projects.map((project) => {
             return (
-              <div className="project-name">
-                <h3>{project.title}</h3>
-                <div className="project-container">
-                  <img
-                    className="project-pic"
-                    src={project.imgUrl}
-                    width="800px"
-                    height="300px"
-                    alt="project"
-                  />
-                  <p>{project.description}</p>
-                </div>
-                <div className="links">
-                  <button>
-                    <a href={project.live}>live</a>
-                  </button>{" "}
-                  <button>
-                    <a href={project.code}>code</a>
-                  </button>
-                </div>
+              <div className="project-card project-item">
+                {/* <XMasonry>
+                  <XBlock> */}
+                   
+                      <h3>{project.title}</h3>
+                      
+                      <img
+                          className="project-pic"
+                          src={project.imgUrl}
+                          alt="project"
+                        />
+                        <p>{project.description}</p>
+                      
+                      <div className="links">
+                        <button>
+                          <a href={project.live}>live</a>
+                        </button>{" "}
+                        <button>
+                          <a href={project.code}>code</a>
+                        </button>
+                      </div>
               </div>
             );
           })}
-        </Slider>
+           </div>   
       </div>
     );
   }
