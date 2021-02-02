@@ -14,7 +14,8 @@ const About = props => {
             I am a Full Stack Web developer, multilingual, Football(soccer), and music lover based in NYC.
             I enjoy learning human languages and  computer languages. I also love solving problems and a  
             competitive trivia player and my strongest suite is Geography. Before becoming an Engineer I 
-            worked for a non-profit. My journey as a developer started at Pursuit a where 
+            worked as a program assistant at a non-profit planning events for the community and working 
+            with kids in that community. My journey as a developer started at Pursuit a where 
             I learned technical skills. Learning to program was unlike anything I had ever done or attempted to do.
             
           </p>
