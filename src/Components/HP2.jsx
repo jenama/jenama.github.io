@@ -1,7 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
 import Typical from "react-typical";
-import { Link } from "react-router-dom";
 
 class Homepage2 extends React.Component {
   constructor(props) {
@@ -24,6 +22,7 @@ class Homepage2 extends React.Component {
               className="myemoji"
               src="/images/myemoji.png"
               width="500px"
+              alt='emoji'
             />
           </div>
           <div className='text-container'>

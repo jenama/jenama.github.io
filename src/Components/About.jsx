@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
-// import Skills from "./Skills";
 
 const About = props => {
   return (
@@ -9,7 +7,7 @@ const About = props => {
       <h1>About me</h1>
       <div className='content'>
           {/* <h3>Welcome! I'm Johanne Enama</h3> */}
-          <img className='left' src='/images/JohanneEnamacopy.jpeg'/>
+          <img className='left' src='/images/JohanneEnamacopy.jpeg' alt='pic'/>
           <p className = 'right'>
             I am a Full Stack Web developer, multilingual, Football(soccer), and music lover based in NYC.
             I enjoy learning human languages and  computer languages. I also love solving problems and a  
