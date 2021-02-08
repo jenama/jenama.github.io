@@ -10,10 +10,10 @@ const About = props => {
           <img className='left' src='/images/JohanneEnamacopy.jpeg' alt='pic'/>
           <p className = 'right'>
             I am a Full Stack Web developer, multilingual, Football(soccer), and music lover based in NYC.
-            I enjoy learning human languages and  computer languages. I also love solving problems and a  
-            competitive trivia player and my strongest suite is Geography. Before becoming an Engineer I 
+            I enjoy learning human languages and computer languages. I also love solving problems and a  
+            competitive trivia player and my strongest trivia suite is Geography. Before becoming an Engineer I 
             worked as a program assistant at a non-profit planning events for the community and working 
-            with kids in that community. My journey as a developer started at Pursuit a where 
+            with kids in that community. My journey as a developer started at Pursuit where 
             I learned technical skills. Learning to program was unlike anything I had ever done or attempted to do.
             
           </p>
