@@ -14,8 +14,8 @@ class App extends React.Component {
       <div className="App">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>My Title</title>
-          <link rel="canonical" href="http://mysite.com/example" />
+          <title>JE</title>
+          <link rel="canonical" href="https://johanneenama.com/" />
         </Helmet>
         <Navbar />
         <Homepage2 />
