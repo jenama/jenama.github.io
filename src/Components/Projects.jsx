@@ -8,7 +8,7 @@ class Projects extends React.Component {
       projects: [
         {
           title: "Cover To Cover",
-          imgUrl: "/images/cover-to-cover.gif",
+          imgUrl: "/images/COVER TO COVER GIF.gif",
           description: `A web based application created to enable people to tell their stories 
                   in their daily lives through a series of questions from other users`,
           live: "https://covertocovercapstone.herokuapp.com/",
