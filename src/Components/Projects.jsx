@@ -39,6 +39,14 @@ class Projects extends React.Component {
           live: "https://tvbinge.herokuapp.com",
           code: "https://github.com/jenama/TvBinge",
         },
+        {
+          title:'#NowThatsCap',
+          imgUrl:'/images/#NowThatsCap',
+          description: `#NowThatsCap, is a frontend web game inspired by black history month
+                       for users to get informed about black culture as an entirety while having fun.`,
+          live:"https://nowthatscap.netlify.app",
+          code: "https://github.com/jenama/now-thats-cap"
+        }
       ],
     };
   }
