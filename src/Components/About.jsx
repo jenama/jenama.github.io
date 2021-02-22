@@ -9,13 +9,12 @@ const About = props => {
           {/* <h3>Welcome! I'm Johanne Enama</h3> */}
           <img className='left' src='/images/JohanneEnamacopy.jpeg' alt='pic'/>
           <p className = 'right'>
-            I am a Full Stack Web developer, multilingual, Football(soccer), and music lover based in NYC.
-            I enjoy learning human languages and computer languages. I also love solving problems and a  
-            competitive trivia player and my strongest trivia suite is Geography. Before becoming an Engineer I 
-            worked as a program assistant at a non-profit planning events for the community and working 
-            with kids in that community. My journey as a developer started at Pursuit where 
-            I learned technical skills. Learning to program was unlike anything I had ever done or attempted to do.
-            
+            I am a Full Stack Web developer fluent in 3 spoken languages(English, French, and Spanish) based in NYC. 
+            I am also a football(soccer) fanatic, who enjoys music, solving problems and a competitive trivia player 
+            especially if the topic is Geography. Before becoming an Engineer I worked as a program assistant at a non-profit 
+            planning events and working with kids in my community. I also volunteered as a soccer coach every Saturday morning 
+            for 2 months during the fall season. I was fortunate to learn technical skills and professional skills 
+            at Pursuit which has a 9 percent acceptance rate.
           </p>
               
       </div>
