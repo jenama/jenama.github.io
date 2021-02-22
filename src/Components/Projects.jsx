@@ -1,6 +1,5 @@
 import React from "react";
-// import Fontawesome from '@fortawesome/react-fontawesome'
-import { XMasonry, XBlock } from "react-xmasonry";
+
 
 class Projects extends React.Component {
   constructor() {
