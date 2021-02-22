@@ -42,7 +42,7 @@ class Projects extends React.Component {
         {
           title:'#NowThatsCap',
           imgUrl:'/images/NowThatsCap.gif',
-          description: `#NowThatsCap, is a frontend web game inspired by black history month
+          description: `#NowThatsCap, is a web game inspired by black history month
                        for users to get informed about black culture as an entirety while having fun.`,
           live:"https://nowthatscap.netlify.app",
           code: "https://github.com/jenama/now-thats-cap"
