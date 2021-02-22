@@ -89,11 +89,13 @@ nav a {
 
 .row h3 {
   font-size: 1.3em;
+  margin-left: 50px;
 }
 
 .skill-item svg {
   width: 6.25em;
   height: 6.25em;
+  margin-left: 70px;
 }
 
 .skill-item {
