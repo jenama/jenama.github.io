@@ -19,7 +19,7 @@ body {
   line-height: 1.7em;
   color: white;
   font-family: 'Patrick Hand SC', cursive;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .nav-bar h3 {
@@ -162,7 +162,7 @@ nav a {
 }
 
 .projects-cards {
-     display: flex;
+    display: flex;
     align-items: stretch;
     gap: 10px;
     justify-content: center;
@@ -273,7 +273,7 @@ a {
 
 @media screen and (max-width: 378px) {
   .nav-bar {
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 }
 
