@@ -8,26 +8,23 @@ import Footer from "./Components/Footer";
 
 import "./App.css";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-      
-        <Navbar />
-        <hr/>
-        <Homepage2 />
-        <hr/>
-        <About />
-        <hr/>
-        <Projects />
-        <hr/>
-        <Skills />
-         <hr/>
-        {/* <Contact/> */}
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Navbar />
+
+      <Homepage2 />
+
+      <About />
+
+      <Projects />
+
+      <Skills />
+
+      {/* <Contact/> */}
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

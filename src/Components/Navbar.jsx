@@ -12,10 +12,10 @@ function Navbar(props) {
             </h3>
             <nav>
                 {/* <a className='link1' href='/'>Home</a>  */}
-                <a className='link2' href='/#about'>About</a> {" "}
+                <a className='link2' href='/#about'>Bio</a> {" "}
                 <a className='link3' href='/#skills'>Skills</a> {" "}
                 <a className='link4' href='/#projects'>Projects</a> {" "}
-                <a className='link5' href='/#contact'>Contact Me</a>
+                <a className='link5' href='/#contact'>Reach Out</a>
             </nav>  
         </div>
     ) 
