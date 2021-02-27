@@ -14,10 +14,15 @@ class App extends React.Component {
       <div className="App">
       
         <Navbar />
+        <hr/>
         <Homepage2 />
+        <hr/>
         <About />
-        <Skills />
+        <hr/>
         <Projects />
+        <hr/>
+        <Skills />
+         <hr/>
         {/* <Contact/> */}
         <Footer />
       </div>
