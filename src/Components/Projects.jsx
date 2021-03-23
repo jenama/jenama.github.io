@@ -7,24 +7,25 @@ class Projects extends React.Component {
     this.state = {
       projects: [
         {
-          title: "Cover To Cover",
-          imgUrl: "/images/cover-2-cover.gif",
-          description: `A web based application created to enable people to tell their stories 
-                  in their daily lives through a series of questions from other users`,
-          live: "https://covertocovercapstone.herokuapp.com/",
-          code: "https://github.com/jenama/Cover-To-Cover",
-        },
-        {
           title: "Hand-Me-Down",
-          imgUrl: "/images/HMD.gif",
+          src: "/images/hand-me-down.webm",
           description: `An application to reduce overconsumption in the fashion industry for
                       users to describe pre-owned items to potential purchasers.`,
           live: "http://handmedown.herokuapp.com",
           code: "https://github.com/jenama/HandMeDown",
         },
+        {
+          title: "Cover To Cover",
+          src: "/images/cover-to-cover.webm",
+          description: `A web based application created to enable people to tell their stories 
+                  in their daily lives through a series of questions from other users`,
+          live: "https://covertocovercapstone.herokuapp.com/",
+          code: "https://github.com/jenama/Cover-To-Cover",
+        },
+        
         // {
         //     title: 'InnerCircle',
-        //     imgUrl: '/images/inner-circle.png',
+        //      src: '/images/inner-circle.png',
         //     description: `Created an innovative social media application alongside a highly skilled team
         //     enabling users to join groups based on mutual interests and foster improved interpersonal connection.`,
         //     live: 'http://localhost:3001/' ,
@@ -33,7 +34,7 @@ class Projects extends React.Component {
 
         {
           title: "TVBinge",
-          imgUrl: "/images/TVB.gif",
+          src: "/images/TVBinge.webm",
           description: `TV BingeList is be a full-stack application where users can post, 
                                 comment on, and favorite TV shows that they are binging on.`,
           live: "https://tvbinge.herokuapp.com",
@@ -41,7 +42,7 @@ class Projects extends React.Component {
         },
         {
           title:'#NowThatsCap',
-          imgUrl:'/images/NowThatsCap.gif',
+          src:'/images/nowthatscap.webm',
           description: `#NowThatsCap, is a web game inspired by black history month
                        for users to get informed about black culture as an entirety while having fun.`,
           live:"https://nowthatscap.netlify.app",
@@ -68,12 +69,12 @@ class Projects extends React.Component {
                    
                       <h3>{project.title}</h3>
                       
-                      <img
-                          className="project-pic"
-                          src={project.imgUrl}
-                          alt="project"
-                        />
-                        <p>{project.description}</p>
+                      <video
+                        className="project-pic"
+                      >
+                        <source src={project.src} type='video/webm'/>
+                      </video>
+                      <p>{project.description}</p>
                       
                       <div className="links">
                         <button>
