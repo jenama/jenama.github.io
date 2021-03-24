@@ -71,6 +71,7 @@ class Projects extends React.Component {
                       
                       <video
                         className="project-pic"
+                        controls muted autoPlay
                       >
                         <source src={project.src} type='video/webm'/>
                       </video>
