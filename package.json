@@ -1,7 +1,7 @@
 {
     "name": "personal-page-d",
     "version": "0.1.0",
-    + "homepage": "https://gitname.github.io/react-gh-pages",
+    + "homepage": "https://jenama.github.io/Personal_page2",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.11.0",
