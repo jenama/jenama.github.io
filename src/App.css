@@ -60,7 +60,7 @@ nav a {
 
 .bg-img {
   height: 100%;
-  background-image: url("/images/gradient-background.png");
+  background-image: url("./assets/images/gradient-background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,8 +87,6 @@ nav a {
   position: relative;
   background-color: whitesmoke;
 }
-
- 
 
 .section h1 {
   display: flex;
