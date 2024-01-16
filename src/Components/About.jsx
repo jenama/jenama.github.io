@@ -2,7 +2,6 @@ import React from "react";
 
 const About = props => {
   return (
-   
     <div className="about-container section" id="about">
       <h1>About me</h1>
       <div className='content'>
@@ -16,13 +15,8 @@ const About = props => {
             for 2 months during the fall season. I was fortunate to learn technical skills and professional skills 
             at Pursuit which has a 9 percent acceptance rate.
           </p>
-              
-      </div>
-     
-        
-     
-
-    </div>
+       </div>
+  </div>
   );
 };
 
