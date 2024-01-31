@@ -1,4 +1,5 @@
 import React from "react";
+import picture from "../assets/images/johannePicture copy.jpeg";
 
 const About = props => {
   return (
