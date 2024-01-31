@@ -6,10 +6,9 @@ const Contact = props => {
             <h1>Contact Me</h1>
             <p>Feel free to contact me if you want to know more</p>
             <div>
-                <a href='mailto:johanneenama@pursuit.org'>
-                Johanneenama@pursuit.org
+                <a href='mailto:johanneenama@gmail.com'>
+                Johanneenama@gmail.com
                 </a>
-                
             </div>
         </div>
     )
