@@ -1,14 +1,19 @@
 import React from "react";
+import covertocovercapstone from "../assets/images/cover-2-cover.gif";
+import handMeDown from "../assets/images/HandMeDown.gif";
+import tvBinge from "../assets/images/TVB.gif";
+import nowThatsCap from "../assets/images/NowThatsCap.gif"
 
 
 class Projects extends React.Component {
   constructor() {
     super();
     this.state = {
+      isLoading: false,
       projects: [
         {
           title: "Hand-Me-Down",
-          src: "/images/hand-me-down.webm",
+          src: {handMeDown},
           description: `An application to reduce overconsumption in the fashion industry for
                       users to describe pre-owned items to potential purchasers.`,
           live: "http://handmedown.herokuapp.com",
@@ -23,15 +28,6 @@ class Projects extends React.Component {
           code: "https://github.com/jenama/Cover-To-Cover",
         },
         
-        // {
-        //     title: 'InnerCircle',
-        //      src: '/images/inner-circle.png',
-        //     description: `Created an innovative social media application alongside a highly skilled team
-        //     enabling users to join groups based on mutual interests and foster improved interpersonal connection.`,
-        //     live: 'http://localhost:3001/' ,
-        //     code: 'https://github.com/jenama/inner-circle-app',
-        // },
-
         {
           title: "TVBinge",
           src: "/images/TVBinge.webm",
@@ -42,7 +38,7 @@ class Projects extends React.Component {
         },
         {
           title:'#NowThatsCap',
-          src:'/images/nowthatscap.webm',
+          src:{nowThatsCap},
           description: `#NowThatsCap, is a web game inspired by black history month
                        for users to get informed about black culture as an entirety while having fun.`,
           live:"https://nowthatscap.netlify.app",
@@ -51,6 +47,12 @@ class Projects extends React.Component {
       ],
     };
   }
+
+  geProjects =() =>{
+    this.setState({ isLoading: true })
+    this.setState({ isLoading: false})
+  }
+  
   render() {
     const { projects } = this.state;
 

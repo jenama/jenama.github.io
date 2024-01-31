@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import myemoji from "../assets/images/myemoji.png";
 
 const Homepage2 = () => {
   return (
@@ -9,7 +10,7 @@ const Homepage2 = () => {
         <div className="myemoji-container">
           <img
             className="myemoji"
-            src="/images/myemoji.png"
+            src={myemoji}
             width="500px"
             alt="emoji"
           />
