@@ -21,7 +21,7 @@ class Projects extends React.Component {
         },
         {
           title: "Cover To Cover",
-          src: "/images/cover-to-cover.webm",
+          src: {covertocovercapstone},
           description: `A web based application created to enable people to tell their stories 
                   in their daily lives through a series of questions from other users`,
           live: "https://covertocovercapstone.herokuapp.com/",
@@ -30,7 +30,7 @@ class Projects extends React.Component {
         
         {
           title: "TVBinge",
-          src: "/images/TVBinge.webm",
+          src: {tvBinge},
           description: `TV BingeList is be a full-stack application where users can post, 
                                 comment on, and favorite TV shows that they are binging on.`,
           live: "https://tvbinge.herokuapp.com",
