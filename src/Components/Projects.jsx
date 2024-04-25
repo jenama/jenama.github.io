@@ -52,9 +52,12 @@ class Projects extends React.Component {
     this.setState({ isLoading: true })
     this.setState({ isLoading: false})
   }
+  componentDidMount() {
+    this.geProjects();
+  }
   
   render() {
-    const { projects } = this.state;
+    const { projects, isLoading } = this.state;
 
     //   console.log('projects', projects)
     return (
@@ -71,12 +74,13 @@ class Projects extends React.Component {
                    
                       <h3>{project.title}</h3>
                       
-                      <video
+                      <div
                         className="project-pic"
                         controls muted autoPlay
                       >
-                        <source src={project.src} type='video/webm'/>
-                      </video>
+                        {isLoading ? <img src={project.src} alt="loading..." /> : null}
+                    
+                      </div>
                       <p>{project.description}</p>
                       
                       <div className="links">
