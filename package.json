@@ -46,10 +46,10 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "7.21.11",
         "@iconify-icons/logos": "^1.1.4",
         "@iconify/react": "^1.1.3",
         "gh-pages": "^5.0.0",
-        "react-xmasonry": "^3.0.4",
-        "@babel/plugin-proposal-private-property-in-object":"7.21.11"
+        "react-xmasonry": "^3.0.4"
     }
 }
