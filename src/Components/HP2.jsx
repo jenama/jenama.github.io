@@ -16,7 +16,7 @@ const Homepage2 = () => {
           />
         </div>
         <div className="text-container">
-          <h1>Hi,</h1>
+          <h1>Welcome,</h1>
           <h2>I'm Johanne Enama</h2>
           <div className="likes">
             I am,
@@ -26,7 +26,7 @@ const Homepage2 = () => {
                 3000,
                 " A Geography and Trivia Lover🌍",
                 3000,
-                " Multilingual(English, French, Spanish)",
+                " Multilingual(English, French, Spanish, a little turkish)",
                 3000,
                 " A Football enthusiast(the one where you actually play with your feet)⚽️",
                 3000,
