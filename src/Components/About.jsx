@@ -1,13 +1,13 @@
 import React from "react";
+import picture from "../assets/images/johannePicture copy.jpeg";
 
-const About = props => {
+const About =() => {
   return (
-   
     <div className="about-container section" id="about">
       <h1>About me</h1>
       <div className='content'>
           {/* <h3>Welcome! I'm Johanne Enama</h3> */}
-          <img className='left' src='/images/JohanneEnamacopy.jpeg' alt='pic'/>
+          <img className='left' src={picture} alt='pic'/>
           <p className = 'right'>
             I am a Full Stack Web developer fluent in 3 spoken languages(English, French, and Spanish) based in NYC. 
             I am also a football(soccer) fanatic, who enjoys music, solving problems and a competitive trivia player 
@@ -16,13 +16,8 @@ const About = props => {
             for 2 months during the fall season. I was fortunate to learn technical skills and professional skills 
             at Pursuit which has a 9 percent acceptance rate.
           </p>
-              
-      </div>
-     
-        
-     
-
-    </div>
+       </div>
+  </div>
   );
 };
 
