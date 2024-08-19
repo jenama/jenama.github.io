@@ -7,14 +7,14 @@ const Homepage2 = () => {
     <div className="home-page">
       <div className="bg-img"></div>
       <div className="intro">
-        <div className="myemoji-container">
+        {/* <div className="myemoji-container">
           <img
             className="myemoji"
             src={myemoji}
             width="500px"
             alt="emoji"
           />
-        </div>
+        </div> */}
         <div className="text-container">
           <h1>Welcome,</h1>
           <h2>I'm Johanne Enama</h2>
